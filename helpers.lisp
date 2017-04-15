@@ -1,4 +1,4 @@
-(in-paragraph #:chronograph)
+(in-package #:chronograph)
 
 (defun universal-from-iso (timestamp)
   (encode-universal-time

@@ -10,4 +10,4 @@
 (defconstant +year-seconds+ (* 365 +day-seconds+))
 
 (defun parse (text &rest rest)
-  text)
+  `(,text ,rest))

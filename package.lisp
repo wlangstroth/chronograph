@@ -2,4 +2,8 @@
 
 (defpackage #:chronograph
   (:use #:cl)
-  (:export #:iso-now))
+  (:export #:iso-now
+           #:iso-from-universal
+           #:universal-from-iso
+           #:duration-from-seconds
+           #:day-of-week))

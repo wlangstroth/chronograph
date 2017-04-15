@@ -1,10 +1,10 @@
 ;;;; chronograph.asd
 
 (asdf:defsystem #:chronograph
-  :description "Describe chronograph here"
-  :author "Your Name <your.name@example.com>"
-  :license "Specify license here"
+  :description "Time helpers"
+  :author "Will Langstroth <will@langstroth.com"
+  :license "MIT"
   :serial t
   :components ((:file "package")
+               (:file "helpers")
                (:file "chronograph")))
-
